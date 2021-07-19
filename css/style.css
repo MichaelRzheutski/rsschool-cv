@@ -1,0 +1,113 @@
+/* Common Styles */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  line-height: 30px;
+}
+
+.about,
+.skills,
+.experience,
+.education,
+.contacts {
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ffffff7a;
+  padding-bottom: 10px;
+}
+
+.cv-wrap {
+  margin: 0 auto;
+  width: 800px;
+  background-color: #f1f1f1;
+  padding: 30px;
+}
+
+/* Header */
+.header img {
+  border-radius: 60px;
+}
+
+.header h1:first-child {
+  margin-top: 0;
+}
+
+.about {
+  background-color: lightgreen;
+}
+
+.about li {
+  background: url(../img/tickbox.png) center left no-repeat;
+  padding-left: 30px;
+}
+
+/* Skills */
+.skills {
+  background-color: lightgreen;
+}
+
+.skills li {
+  background: url(../img/tickbox-aqua.png) center left no-repeat;
+  padding-left: 30px;
+}
+
+/* Experience */
+.experience {
+  background-color: lightsalmon;
+}
+
+.experience li {
+  background: url(../img/finger.png) center left no-repeat;
+  padding-left: 30px;
+  margin-bottom: 15px;
+}
+
+.experience li:last-child {
+  margin-bottom: 0;
+}
+
+/* Education */
+.education {
+  background-color: lightseagreen;
+}
+
+/* Contacts */
+.contacts {
+  background-color: #ffc107d9;
+}
+
+/* Footer */
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rs-school {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.michal-link {
+  margin-bottom: 10px;
+}
